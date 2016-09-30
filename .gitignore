@@ -4,4 +4,4 @@
 */target
 *.iml
 */mvnw
-*/mvnw.cmd
+*.cmd
