@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: config
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/leegive/SpringCloud.git
+          search-paths: config/repo
+          username: leegive
+          password: Wj173749
+server:
+  port: 8888
