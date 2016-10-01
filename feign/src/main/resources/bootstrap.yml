@@ -5,7 +5,9 @@ spring:
     config:
       profile: dev
       label: master
-      uri: http://localhost:8888/
+      discovery:
+        enabled: true
+        service-id: config
   rabbitmq:
     host: localhost
     username: guest
