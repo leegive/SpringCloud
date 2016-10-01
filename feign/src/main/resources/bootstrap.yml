@@ -8,11 +8,11 @@ spring:
       discovery:
         enabled: true
         service-id: config
-#  rabbitmq:
-#    host: localhost
-#    port: 5762
-#    username: guest
-#    password: guest
+  rabbitmq:
+    host: localhost
+    username: leegive
+    password: 123456
+    port: 5672
 eureka:
   client:
     service-url:
