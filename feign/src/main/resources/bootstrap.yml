@@ -3,6 +3,7 @@ spring:
     name: feign
   cloud:
     config:
+      fail-fast: true
       profile: dev
       label: master
       discovery:
@@ -11,7 +12,7 @@ spring:
   rabbitmq:
     host: localhost
     username: leegive
-    password: 123456
+    password: leegive
     port: 5672
 eureka:
   client:
