@@ -6,6 +6,11 @@ spring:
       profile: dev
       label: master
       uri: http://localhost:8888/
+  rabbitmq:
+    host: localhost
+    port: 5762
+    username: guest
+    password: guest
 eureka:
   client:
     service-url:
