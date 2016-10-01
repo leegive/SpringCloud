@@ -1,14 +1,2 @@
-spring:
-  application:
-    name: feign
-  cloud:
-    config:
-      profile: dev
-      label: master
-      uri: http://localhost:8888/
 server:
   port: 4444
-eureka:
-  client:
-    service-url:
-      defaultZone: http://localhost:8761/eureka/
