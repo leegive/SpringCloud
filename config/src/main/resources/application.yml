@@ -11,8 +11,8 @@ spring:
           password: Wj173749
   rabbitmq:
     host: localhost
-    username: guest
-    password: guest
+    username: leegive
+    password: 123456
     port: 5672
 server:
   port: 8888

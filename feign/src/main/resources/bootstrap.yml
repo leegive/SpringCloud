@@ -10,8 +10,8 @@ spring:
         service-id: config
   rabbitmq:
     host: localhost
-    username: guest
-    password: guest
+    username: leegive
+    password: 123456
     port: 5672
 eureka:
   client:
