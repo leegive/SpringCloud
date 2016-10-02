@@ -9,11 +9,6 @@ spring:
           search-paths: config/repo
           username: leegive
           password: Wj173749
-  rabbitmq:
-    host: localhost
-    username: leegive
-    password: leegive
-    port: 5672
 server:
   port: 8888
 eureka:
