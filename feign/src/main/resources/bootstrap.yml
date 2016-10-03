@@ -6,6 +6,7 @@ spring:
       fail-fast: true
       profile: dev
       label: master
-      discovery:
-        enabled: true
-        service-id: config
+#      discovery:
+#        enabled: true
+#        service-id: config
+      uri: http://localhost:8888/
