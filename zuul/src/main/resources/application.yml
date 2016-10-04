@@ -1,20 +1,17 @@
-spring:
-  application:
-    name: zuul
 server:
   port: 10000
 eureka:
   client:
     service-url:
       defaultZone: http://localhost:8761/eureka/
-zuul:
-  routes:
-    compute:
-      path: /compute/**
-      serviceId: compute
-    ribbon:
-      path: /ribbon/**
-      serviceId: ribbon
-    feign:
-      path: /feign/**
-      serviceId: feign
+#zuul:
+#  routes:
+#    compute:
+#      path: /compute/**
+#      serviceId: compute
+#    ribbon:
+#      path: /ribbon/**
+#      serviceId: ribbon
+#    feign:
+#      path: /feign/**
+#      serviceId: feign

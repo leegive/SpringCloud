@@ -1,6 +1,6 @@
+server:
+  port: 8888
 spring:
-  application:
-    name: config
   cloud:
     config:
       server:
@@ -9,10 +9,7 @@ spring:
           search-paths: config/repo
           username: leegive
           password: Wj173749
-server:
-  port: 8888
 eureka:
   client:
     service-url:
       defaultZone: http://localhost:8761/eureka/
-    enabled: false
